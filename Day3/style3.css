@@ -1,0 +1,43 @@
+* {
+    margin: 0px;
+}
+
+ul {
+    list-style: none;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    background-color: yellow;
+}
+
+li {
+    border: 2px solid red;
+    border-radius: 20px;
+    font-size: xx-large;
+    color: aqua;
+    padding: 4px;
+}
+
+li:hover {
+
+    background-color: chartreuse;
+    color: yellow;
+}
+
+@media (max-width: 600px) {
+    ul {
+        display: flow-root;
+    }
+    li{
+        display:list-item;
+    }
+
+    nav::after {
+        content: '☰';
+        font-size: 1.5rem;
+        color: #fff;
+        position: absolute;
+        right: 20px;
+        top: 15px;
+        cursor: pointer;
+    }

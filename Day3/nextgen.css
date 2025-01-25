@@ -1,0 +1,18 @@
+.box
+{
+    width: 400px;
+    height: 700px;
+    background-color: rgb(167, 201, 230);
+}
+.logo
+{
+    width: 40px;
+    height: 100px;
+    background-color: red;
+}
+.description
+{
+    width: 40px;
+    height: 100px;
+    background-color: red;
+}

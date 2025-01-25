@@ -1,0 +1,41 @@
+.imgbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10px;
+    width: 600px;
+    height: 550px;
+    border-radius: 20px;
+}
+
+.box-color {
+    background-color: aqua;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    
+}
+
+.buttonbox {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 10px;
+    padding: 10px;
+}
+
+.buttonbox button {
+    color: white;
+    background-color: gray;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}

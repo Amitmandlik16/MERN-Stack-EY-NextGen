@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Groom's Matrimony Registration Form</title>
+</head>
+
+<body>
+    <h1 style="text-align: center;color: aqua;">Groom's Matrimony Registration Form</h1>
+    <hr>
+    <form method="post" action="">
+        <label>Full Name:</label>&nbsp;
+        <select id="s">
+            <option value="Mr." selected><label>Mr.</label></option>
+            <option value="Ms."><label>Ms.</label></option>
+            <option value="Mrs."><label>Mrs.</label></option>
+        </select>
+        <input type="text" name="fname"><br><br>
+        <label>Nick Name:</label>&nbsp;
+        <input type="text" name="nname"><br><br>
+        <label>Upload Profile Photo:</label>&nbsp;
+        <input type="file" name="profile_photo" accept="image/*"><br><br>
+        <label>Father's Full Name:</label>&nbsp;
+        <input type="text" name="ffname"><br><br>
+        <label>Mother's Full Name:</label>&nbsp;
+        <input type="text" name="mfname"><br><br>
+        <label>Gender:</label>&nbsp;
+        <input type="radio" id="gender" name="gender">
+        <label>Male</label>&nbsp;
+        <input type="radio" name="gender">
+        <label>Female</label>&nbsp;<br><br>
+        <label>Date Of Birth:</label>&nbsp;
+        <input type="date" name="dob"><br><br>
+        <label>Languages:</label>&nbsp;
+        <input type="checkbox" name="lang">
+        <label>English</label>
+        <input type="checkbox" name="lang">
+        <label>Hindi</label>
+        <input type="checkbox" name="lang">
+        <label>Marathi</label><br><br>
+
+
+        <label for="qualification">Highest Qualification:</label>
+        <select id="qualification" name="qualification">
+            <option value="high_school">High School</option>
+            <option value="associate">Associate Degree</option>
+            <option value="bachelor">Bachelor's Degree</option>
+            <option value="master">Master's Degree</option>
+            <option value="phd">PhD</option>
+            <option value="diploma">Diploma</option>
+            <option value="certification">Certification</option>
+            <option value="other">Other</option>
+        </select><br>
+        <label>if others please Specify:</label>
+        <input type="text" name="qualification"><br><br>
+
+        <label for="professionType">Profession Type:</label>
+        <select id="professionType" name="professionType">
+            <option value="business">Business</option>
+            <option value="private_job">Private Job</option>
+            <option value="government_job">Government Job</option>
+            <option value="freelancer">Freelancer</option>
+            <option value="entrepreneur">Entrepreneur</option>
+            <option value="student">Student</option>
+            <option value="retired">Retired</option>
+            <option value="unemployed">Unemployed</option>
+            <option value="other">Other</option>
+        </select><br>
+        <label>if others please Specify:</label>
+        <input type="text" name="professionType"><br><br>
+
+        <label for="favoriteColor">Favorite Color:</label>
+        <select id="favoriteColor" name="favoriteColor">
+            <option value="black">Black</option>
+            <option value="white">White</option>
+            <option value="red">Red</option>
+            <option value="green">Green</option>
+            <option value="blue">Blue</option>
+            <option value="yellow">Yellow</option>
+            <option value="purple">Purple</option>
+            <option value="orange">Orange</option>
+            <option value="pink">Pink</option>
+            <option value="brown">Brown</option>
+            <option value="gray">Gray</option>
+        </select><br><br>
+
+
+
+        <label>Height.:</label>&nbsp;
+        <input type="number" name="height"><br><br>
+
+        <label>Address:</label>&nbsp;
+        <textarea name="address" id="address"></textarea><br><br>
+
+        <label>Mobile No.:</label>&nbsp;
+        <input type="number" name="mno"><br><br>
+        <label>Email:</label>&nbsp;
+        <input type="email" name="email"><br><br>
+
+        <input type="button" onclick='document.write("Registered Successfully")' value="Register">
+
+    </form>
+
+</body>
+
+</html>

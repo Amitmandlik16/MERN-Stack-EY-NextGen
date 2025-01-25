@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bank Account Registration Form</title>
+</head>
+
+<body>
+    <h1 style="text-align: center; color: green;">Bank Account Registration Form</h1>
+    <hr>
+    <form method="post" action="">
+        <label>Full Name:</label>&nbsp;
+        <select id="salutation">
+            <option value="Mr." selected>Mr.</option>
+            <option value="Ms.">Ms.</option>
+            <option value="Mrs.">Mrs.</option>
+        </select>
+        <input type="text" name="full_name"><br><br>
+
+        <label>Nick Name:</label>&nbsp;
+        <input type="text" name="nick_name"><br><br>
+
+        <label>Date Of Birth:</label>&nbsp;
+        <input type="date" name="dob"><br><br>
+
+        <label>Gender:</label>&nbsp;
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>&nbsp;
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br><br>
+
+        <label>Address:</label>&nbsp;
+        <textarea name="address" id="address"></textarea><br><br>
+
+        <label>Mobile No.:</label>&nbsp;
+        <input type="number" name="mobile_no"><br><br>
+        
+        <label>Email:</label>&nbsp;
+        <input type="email" name="email"><br><br>
+
+        <label>Account Type:</label>&nbsp;
+        <select id="account_type" name="account_type">
+            <option value="savings">Savings</option>
+            <option value="current">Current</option>
+            <option value="fixed_deposit">Fixed Deposit</option>
+            <option value="recurring_deposit">Recurring Deposit</option>
+        </select><br><br>
+
+        <label>Occupation:</label>&nbsp;
+        <select id="occupation" name="occupation">
+            <option value="employed">Employed</option>
+            <option value="self_employed">Self-Employed</option>
+            <option value="student">Student</option>
+            <option value="retired">Retired</option>
+            <option value="unemployed">Unemployed</option>
+            <option value="other">Other</option>
+        </select><br><br>
+        <label>If other, please specify:</label>
+        <input type="text" name="occupation_other"><br><br>
+
+        <label>Identification Document:</label>&nbsp;
+        <select id="id_doc" name="id_doc">
+            <option value="aadhar">Aadhar Card</option>
+            <option value="passport">Passport</option>
+            <option value="driving_license">Driving License</option>
+            <option value="pan_card">PAN Card</option>
+            <option value="voter_id">Voter ID</option>
+        </select><br><br>
+        
+        <label>ID Document Number:</label>&nbsp;
+        <input type="text" name="id_doc_number"><br><br>
+
+        <label>Upload Selected Document:</label>&nbsp;
+        <input type="file" name="document
+        "><br><br>
+        
+        <input type="button" onclick='document.write("Registered Successfully")' value="Register">
+    </form>
+</body>
+
+</html>

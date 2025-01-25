@@ -1,0 +1,34 @@
+.boxf {
+    width: 500px;
+    height: 100px;
+}
+
+.outerbox {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: aliceblue;
+}
+
+.boxf1 {
+    background-color: #FF671F;
+}
+
+.boxf2 {
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxf3 {
+    background-color: #046A38;
+}
+
+.chkraimg {
+    height: 100px;
+    width: auto;
+}

@@ -1,0 +1,13 @@
+console.log("hello world");
+var a=5;
+console.log("a="+a);
+var b=4;
+console.log("b="+b);
+var c=a+b;
+console.log("Addition is "+c);
+var d=a-b;
+console.log("Subtraction is "+d);
+var e=a*b;
+console.log("Multiplication is "+e);
+var f=a/b;
+console.log("Division is "+f);
